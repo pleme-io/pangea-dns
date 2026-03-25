@@ -4,6 +4,8 @@
 require 'pangea-core'
 require 'terraform-synthesizer'
 
+module Pangea; module Resources; module Dns; module Types; end; end; end; end
+
 # Dns resources
 require_relative 'pangea/resources/dns_a_record_set/resource'
 require_relative 'pangea/resources/dns_aaaa_record_set/resource'
